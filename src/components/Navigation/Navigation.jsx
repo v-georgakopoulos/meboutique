@@ -19,8 +19,8 @@ import {
 
 
 const tabs = [
-  { id: 1, name: "Womens", path: "shop/womens" },
-  { id: 2, name: "Mens", path: "shop/mens" },
+  { id: 1, name: "Women", path: "shop/womens" },
+  { id: 2, name: "Men", path: "shop/mens" },
   { id: 3, name: "Sneakers", path: "shop/sneakers" },
   { id: 4, name: "Jackets", path: "shop/jackets" },
   { id: 5, name: "Hats", path: "shop/hats" },
