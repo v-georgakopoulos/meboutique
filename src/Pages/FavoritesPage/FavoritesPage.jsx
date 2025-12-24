@@ -20,7 +20,7 @@ const FavoritesPage = () => {
         <FavoritesContainer>
           {favorites.map((item) => (
             <Link key={item.id} to={`/shop/${item.category}/${item.id}`}>
-              <ProductItem item={item}/>
+              <ProductItem product={item} category={item.category}/>
             </Link>
           ))}
         </FavoritesContainer>
